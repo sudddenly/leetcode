@@ -10,4 +10,4 @@ class Solution(object):
             w = set(word.lower())
             if w.issubset(line1) or w.issubset(line2) or w.issubset(line3):
                 ret.append(word)
-        return ret  
+        return ret
